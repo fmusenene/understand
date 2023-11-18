@@ -1,0 +1,449 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/96dd16cfc9.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="assets/img/favicon.png.html">
+    <title>Uganda Police Force</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="description" content="Certificate Application portal for the Uganda Police Force" />
+    <meta name="keywords" content="Uganda, Police, UPF SWD " />
+    <meta name="author" content="UPF SWD(Ivan Mutaasa)" />
+    <meta name="email" content="info@kumusoft.com" />
+    <meta name="website" content="https://www.upf.go.ug" />
+    <meta name="Version" content="v1.0" />
+    
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="pyXjA_TgfMa_eKxkrXoOfxYsetUEdHfOG2M_ApZFkxriEqgzvJQpld4hwQbKCUcpc1QygUo-P5soFUxQ7jDKUQ==" />
+    
+    <link href="Content/NewSiteContent/CSS/bootstrap.css" rel="stylesheet">
+    <link href="Content/NewSiteContent/CSS/select2.css" rel="stylesheet">
+    <link href="Content/NewSiteContent/CSS/select2-addl.css" rel="stylesheet">
+    <link href="Content/NewSiteContent/CSS/select2-krajee.css" rel="stylesheet">
+    <link href="Content/NewSiteContent/CSS/kv-widgets.css" rel="stylesheet">
+    <link href="Content/NewSiteContent/CSS/dependent-dropdown.css" rel="stylesheet">
+    <link href="Content/NewSiteContent/CSS/animate.css" rel="stylesheet">
+    <link href="Content/NewSiteContent/CSS/lightcase.css" rel="stylesheet">
+    <link href="Content/NewSiteContent/CSS/simple-line-icons.css" rel="stylesheet">
+    <link href="Content/NewSiteContent/CSS/ElegantIcons.css" rel="stylesheet">
+    <link href="Content/NewSiteContent/CSS/swiper.min.css" rel="stylesheet">
+    <link href="Content/NewSiteContent/CSS/font-awesome.min.css" rel="stylesheet">
+    <link href="Content/NewSiteContent/CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="Content/NewSiteContent/CSS/style.css" rel="stylesheet">
+    <link href="Content/NewSiteContent/CSS/home-2-style.css" rel="stylesheet">
+    <link href="Content/NewSiteContent/CSS/responsive.css" rel="stylesheet">
+    <link href="Content/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" />
+    <script>
+
+</script>
+    <style>
+        .txt {
+            border-radius: 13px;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            border-color: #ebebeb;
+            max-width: 100%;
+            height: auto;
+            padding-left: 10px;
+            text-align: left;
+            vertical-align:central;
+        }
+
+        txtbtn {
+            border-radius: 13px;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            border-color: #ebebeb;
+            max-width: 100%;
+            height: auto;
+            padding-left: 10px;
+            text-align: center
+        }
+
+
+        .txt:focus {
+            border-radius: 13px;
+            border: none;
+        }
+
+        .txtbox {
+            border: 1px solid;
+            border-color: #ebebeb;
+            max-width: 100%;
+            height: auto;
+            text-align: left;
+        }
+
+        .dob {
+            height: 45px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media screen and (max-width: 1060px) {
+            #primary {
+                width: 100%;
+            }
+
+            #secondary {
+                width: 30%;
+                margin-left: 3%;
+            }
+        }
+
+        /* Media Queries: Tabled Portrait */
+        @media screen and (max-width: 768px) {
+            #primary {
+                width: 100%;
+            }
+
+            #secondary {
+                width: 100%;
+                margin: 0;
+                border: none;
+            }
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" onload="window.history.forward();">
+    <header class="header" style="margin-bottom: 20px;">
+        <nav class="navbar navbar-expand-lg fixed-top sticky-nav" id="main-nav">
+            <div class="container-fluid" style="height: 85px;">
+                <a class="navbar-brand" href="#">
+                    <img class="white-logo" src="Content/NewSiteContent/Images/logo-nobg.png" alt="" style="height: 150px;">
+                    <img class="color-logo" src="Content/NewSiteContent/Images/logo-nobg.png" alt="" style="height: 80px;">
+                </a>
+                <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#main-nav-collapse" aria-controls="main-nav-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="menu-toggle">
+                        <span class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                        <span class="hamburger-cross">
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse order-3 order-lg-2 order-md-3 order-sm-3 order-xs-3" id="main-nav-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-scroll" href="#"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-scroll" href="#"></a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="row">
+                                <div class="col-md-2 col-sm-2 col-xs-2">Welcome:</div>
+                                <div class="col-md-8 col-sm-8 col-xs-8" style="padding-left: 60px;"><strong><i><a href="#" id="lkUsername" class="nav-link nav-link-scroll"></a></i></strong></div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a id="" class="nav-link nav-link-scroll" href="System_Login.aspx">Log out</a>
+                        </li>
+                        <div class="nav-button order-2 order-lg-3 order-md-3 order-sm-3 order-xs-3">
+                            <a href="#">Online Application</a>
+                        </div>
+                        <div class="nav-button order-lg-3 order-md-3 order-sm-3 order-xs-3">
+                            <img src="Content/NewSiteContent/Images/coart-of-arms.png" style="height: 55px; float: right;" />
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <form method="post" action="./AppSelection.aspx?param=KYVbliRtFozXtWYbezwoIFiasQl+br63KRJDmF9KiNJmlJbzCWvFs9bCZ+zGGlKo" id="w0" class="smart-form client-form">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['w0'];
+if (!theForm) {
+    theForm = document.w0;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="01CB3422" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+</div>
+    <section class="h4-testimonial s-padding bg-color">
+        <div class="container">
+            <div class="col-lg-3">
+                
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="list-group-item-figure">
+                            <div class="tile bg-success">
+                                <span class="oi oi-chat"></span>
+                            </div>
+                        </div>
+                        <div class="list-group-item-body">Self-Service Menu </div>
+                    </a>
+                <a id="lbGen" class="list-group-item list-group-item-action" href="javascript:__doPostBack(&#39;lbGen&#39;,&#39;&#39;)">Generate PRN</a>
+              
+                      
+                    
+                    
+                 
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9" style="border-left: 1px solid #ccc; padding-left: 50px;">
+                <h3 style="border-bottom: 2px solid #ccc;"></h3>
+                <style>
+                    form div.required label.control-label:after {
+                        content: "*";
+                        color: red;
+                    }
+                </style>
+                <div class="row" style="background-color: white; border-radius: 40px; padding-bottom: 50px; padding-top: 30px;">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h5 style="font-weight: bold;">
+                            <span class="pull-right"></span>
+                        </h5>
+                        <p></p>
+
+                        <div class="service-request-form">
+                            
+                                
+                                <fieldset class="" id="fsApp">
+                                    <legend style="font-size: 16px;"><strong><em>select the application to complete</em></strong> </legend>
+                                    <div class="row">
+
+                                        <div class="col-md-2 col-sm-2 col-xs-2" style="text-align:right;font-size:14pt;">
+                                            <span id="lbSelectApp" class="txt"></span>
+                                        </div>
+                                        <div class="col-md-9 col-sm-9 col-xs-12">
+                                            <select name="DpAppToComplete" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;DpAppToComplete\&#39;,\&#39;\&#39;)&#39;, 0)" id="DpAppToComplete" class="form-control form-control-lg txt" style="height:60px;">
+	<option selected="selected" value="0">Select Application</option>
+	<option value="ULDHNSLSHDTVYWB">ULDHNSLSHDTVYWB:NAIGAGA  FATUMA :NOT PAID</option>
+	<option value="BWHLSUIKBADNOOZ">BWHLSUIKBADNOOZ:NAGGUJJA   JOWERIA :NOT PAID</option>
+	<option value="SHNDMPRKCOYQPVM">SHNDMPRKCOYQPVM:MUTESI  FAZIRA:NOT PAID</option>
+	<option value="HMWTEGIAGTUITRO">HMWTEGIAGTUITRO:MUTESI  FAZIRA:NOT PAID</option>
+	<option value="KMHQDZQPNIQMTEB">KMHQDZQPNIQMTEB:NASSUNA   ANGELLA :PAID</option>
+	<option value="GETAOWBESZTSXLJ">GETAOWBESZTSXLJ:AKOL  SUSAN :PAID</option>
+	<option value="OJOBLFJBTPBRFQX">OJOBLFJBTPBRFQX:BABIRYE MERCY TASPER :NOT PAID</option>
+	<option value="URZRLNICSDBIIVA">URZRLNICSDBIIVA:ALUPO  AGNES :PAID</option>
+	<option value="ECRKAHQKHMNKXAA">ECRKAHQKHMNKXAA:WANDEKA   LYDIA :PAID</option>
+	<option value="MXDPGMJZKUMSXNZ">MXDPGMJZKUMSXNZ:APIO   JAMILA :PAID</option>
+	<option value="IPTPLQJTETPEBDZ">IPTPLQJTETPEBDZ:ALUPO  CAROLINE :NOT PAID</option>
+	<option value="JMIAQCJVKYGYRVB">JMIAQCJVKYGYRVB:NAMTUMBA   RASHIDA:PAID</option>
+	<option value="PGJXZEELJRPWDDL">PGJXZEELJRPWDDL:JARO GAYA TASPER :NOT PAID</option>
+	<option value="XUUCHYAMLRPNDFL">XUUCHYAMLRPNDFL:NAMWANJE   REHEMA:NOT PAID</option>
+	<option value="XLCNYYBSCVALGYS">XLCNYYBSCVALGYS:NAMWEJJE   REHEMA :NOT PAID</option>
+	<option value="DDWVSMZNRKKBJAE">DDWVSMZNRKKBJAE:NABWIRE DIANA PROSSY:NOT PAID</option>
+	<option value="GDEPFFPWQMVPBQN">GDEPFFPWQMVPBQN:KABASOMI  ZIPORA:NOT PAID</option>
+	<option value="OEJFTNCVTLKVOFM">OEJFTNCVTLKVOFM:BEKEMBE  HARRIET:NOT PAID</option>
+	<option value="GNPOQBUQQLEIYZV">GNPOQBUQQLEIYZV:NABACHWA  VERONICA:NOT PAID</option>
+	<option value="DSKROVMSIQLGCIN">DSKROVMSIQLGCIN:MWOLOBI  REAN:NOT PAID</option>
+	<option value="MYVRFRFRVVWVIMO">MYVRFRFRVVWVIMO:NALUKWAGO  JUSTINE:NOT PAID</option>
+	<option value="TYRMGMEFHACYDNX">TYRMGMEFHACYDNX:NAMPAPA  SHAKILA:NOT PAID</option>
+	<option value="MRFQITHSWZPDZMK">MRFQITHSWZPDZMK:AKAMPULIRA  GLORIOUS:NOT PAID</option>
+	<option value="KENRSDKMRFUUFRD">KENRSDKMRFUUFRD:NABBOWA ROBINAH MUWAYIRA:PAID</option>
+	<option value="OZXKOBWXUADZMSG">OZXKOBWXUADZMSG:NAKINTU  DESIRE:NOT PAID</option>
+	<option value="XYVPKNJCGOXQSNN">XYVPKNJCGOXQSNN:NAMUYOMBA MARTHA KWAGALA:PAID</option>
+	<option value="GAZHRPMMWSUQDSL">GAZHRPMMWSUQDSL:TUMWESIGIRE  GRACE:PAID</option>
+	<option value="ISCFQNWOYIEZGVQ">ISCFQNWOYIEZGVQ:ASHABA  ADRINI :NOT PAID</option>
+	<option value="CWULWXRTUJDBXFN">CWULWXRTUJDBXFN:ADONG  AGNESS :NOT PAID</option>
+	<option value="TLWMXBAECHHABSX">TLWMXBAECHHABSX:NAKAYIMA  AGNES:NOT PAID</option>
+	<option value="NOKYFHZLUGGSWUA">NOKYFHZLUGGSWUA:NAKITENDE   CHRISTINE:NOT PAID</option>
+	<option value="NUKCDHDUFILUSMJ">NUKCDHDUFILUSMJ:AMURIAT  NAUME  SUSAN:NOT PAID</option>
+	<option value="WYDJHHRFYXOJXIY">WYDJHHRFYXOJXIY:NANTEZA   GRACE:NOT PAID</option>
+	<option value="RXYEAAXZGTSGQFR">RXYEAAXZGTSGQFR:NALUBEGA  MARY:NOT PAID</option>
+	<option value="OMPWCVAUJTFRJWO">OMPWCVAUJTFRJWO:NAMBOOZO   JESCA:NOT PAID</option>
+	<option value="QZDNRNCCAKTFOEY">QZDNRNCCAKTFOEY:JULIET   NALUBOWA:NOT PAID</option>
+	<option value="GQFELYBMCOYRLFP">GQFELYBMCOYRLFP:SEELA  JOY:NOT PAID</option>
+	<option value="JDOUQBXPMFHZZFT">JDOUQBXPMFHZZFT:KAANYI  JOAN :NOT PAID</option>
+	<option value="WUNECKUEYWEDHVN">WUNECKUEYWEDHVN:IRENE   AKELLO:NOT PAID</option>
+	<option value="NZYWUGIXEKVNHTF">NZYWUGIXEKVNHTF:NAMULONDO  FATUMA :NOT PAID</option>
+	<option value="LTALDJNWIKBAMNZ">LTALDJNWIKBAMNZ:ESTHER  NABIRYE:NOT PAID</option>
+	<option value="THLWRNYZQUJXVXL">THLWRNYZQUJXVXL:NAMWEJJE   REHEMA :PAID</option>
+	<option value="TLFDLBKSVPUFZNS">TLFDLBKSVPUFZNS:JARO GAYA TASPER :NOT PAID</option>
+	<option value="WYBJGBNSIUZSAGI">WYBJGBNSIUZSAGI:JARO GAYA TASPER :NOT PAID</option>
+	<option value="HADKSEFWBKCULHB">HADKSEFWBKCULHB:JARO GAYA TASPER :NOT PAID</option>
+	<option value="UPPZMAAGUFCEQVS">UPPZMAAGUFCEQVS:NAMULINDA   FARIDAH:NOT PAID</option>
+	<option value="VBCNXBASZEXURQP">VBCNXBASZEXURQP:MUHINDO  JOAN :NOT PAID</option>
+	<option value="ZAATHFUEQWUWPUB">ZAATHFUEQWUWPUB:MUHINDO  JOAN :NOT PAID</option>
+	<option value="DZZYCPZOFUKXVGQ">DZZYCPZOFUKXVGQ:KYOMUGISHA   CHRISTINE :NOT PAID</option>
+	<option value="HYSGVVXQDTEWZBE">HYSGVVXQDTEWZBE:JARO  RITAH:NOT PAID</option>
+	<option value="UHJWOYBSDCYHJTG">UHJWOYBSDCYHJTG:NAMUWAYA  ZABINA:NOT PAID</option>
+	<option value="ZESFXZTOSGBNRGY">ZESFXZTOSGBNRGY:NAMAGANDA  RACHEAL:NOT PAID</option>
+	<option value="WXAIYPUYLLSPRAZ">WXAIYPUYLLSPRAZ:NABASIRYE  ANGEL:NOT PAID</option>
+	<option value="GKKSOOSHUBBNACS">GKKSOOSHUBBNACS:NAKALYANGO  ALLEN :PAID</option>
+	<option value="PWAFCPTIMWFBUPY">PWAFCPTIMWFBUPY:LYAKA WINNIE KEVIN:NOT PAID</option>
+	<option value="KSUKGAEBACOEVIX">KSUKGAEBACOEVIX:NAKAGGWA  VIOLET :NOT PAID</option>
+	<option value="RVISWORCILOBKMP">RVISWORCILOBKMP:NALUMANSI  VICTO :NOT PAID</option>
+	<option value="CCGOFKUNVEPZPNJ">CCGOFKUNVEPZPNJ:NAMUKISA  SCOVIA :NOT PAID</option>
+	<option value="ZLHQILYUTVBIVFC">ZLHQILYUTVBIVFC:KABUGHO  SCOVIA :NOT PAID</option>
+	<option value="VMZQNIEHLKDFVKR">VMZQNIEHLKDFVKR:NANKABILWA   RUTH :NOT PAID</option>
+	<option value="QBZIKVOLLYWIAZP">QBZIKVOLLYWIAZP:NAKIRYA  ROSEMARY:NOT PAID</option>
+	<option value="YGQXUHSLKUQVIDU">YGQXUHSLKUQVIDU:NAMUTOSI  RAHMA :NOT PAID</option>
+	<option value="FZSBQYPAYDOOCFK">FZSBQYPAYDOOCFK:NALWOGA PROSSY  CLAIRE :NOT PAID</option>
+	<option value="TPCVPMNVVYDHASC">TPCVPMNVVYDHASC:NALWOGA PROSSY CLAIRE:NOT PAID</option>
+	<option value="QLUPBXUFEYCCSDM">QLUPBXUFEYCCSDM:AMURON JUNICK JESCA :NOT PAID</option>
+	<option value="HPRSXOGTDKJSYWA">HPRSXOGTDKJSYWA:AMURIAT  NAUME  SUSAN:PAID</option>
+	<option value="BJTXIEYHWAGYHER">BJTXIEYHWAGYHER:NAKITENDE   CHRISTINE:NOT PAID</option>
+	<option value="YAEJCMCLGLDDZLM">YAEJCMCLGLDDZLM:ANCUNGWIRE  MACKLINE:NOT PAID</option>
+	<option value="DFPXTWOTVYVVBBQ">DFPXTWOTVYVVBBQ:NAIGAGA  NAJUWA:NOT PAID</option>
+	<option value="ZSMIDSCGGRVSZIW">ZSMIDSCGGRVSZIW:AYOO  GLORIA:NOT PAID</option>
+	<option value="AEUFLDKRMEKWURS">AEUFLDKRMEKWURS:NAKAMYA  RITAH NALWOGA:NOT PAID</option>
+	<option value="LCYPSPHXMTGNBQQ">LCYPSPHXMTGNBQQ:NENGAMBA  FATUMA:PAID</option>
+	<option value="NOTWYRQQUZPNREL">NOTWYRQQUZPNREL:NANONO ROSE MARIAM:PAID</option>
+	<option value="PDCPXJXQKDDHSOJ">PDCPXJXQKDDHSOJ:AISHA  YUSUF:NOT PAID</option>
+	<option value="GPZYRHZGUWSRVSC">GPZYRHZGUWSRVSC:KAGOYA  JACKLINE:PAID</option>
+	<option value="MMTEVCTAEVIOUXM">MMTEVCTAEVIOUXM:BIIRA  LEVENIA:PAID</option>
+	<option value="NCAMYIDHUAYKCUZ">NCAMYIDHUAYKCUZ:NANDUDU  JOY:NOT PAID</option>
+	<option value="OPMZPSPDOYLDTND">OPMZPSPDOYLDTND:NYABONYO  IRENE:NOT PAID</option>
+	<option value="HTZVKDUSHUBXQOJ">HTZVKDUSHUBXQOJ:KYOMPAIRE   JACKLINE :NOT PAID</option>
+	<option value="OKHEBKNRVQGLLJJ">OKHEBKNRVQGLLJJ:NAMUTEBI  DOREEN:NOT PAID</option>
+	<option value="HFWEFPHQLIGNURT">HFWEFPHQLIGNURT:NAMULEMO   ROSE:PAID</option>
+	<option value="KKLPKOWSPIWCMGY">KKLPKOWSPIWCMGY:KABUGHO  SCOVIA:PAID</option>
+	<option value="YALKNPYFUISSXGU">YALKNPYFUISSXGU:NAMAYE  MIRRIAM:NOT PAID</option>
+	<option value="OFPWBJHEHOKOPVB">OFPWBJHEHOKOPVB:NASAAZI  SHAKIRA:NOT PAID</option>
+	<option value="EXLVLENSTNRCDHY">EXLVLENSTNRCDHY:MUWANGA  TWAHA:PAID</option>
+	<option value="RZANNYVYXZRJHEB">RZANNYVYXZRJHEB:BAGWA  NICHOLAS:PAID</option>
+	<option value="QMFKTFEQQFMYXZW">QMFKTFEQQFMYXZW:NAKAWEESI  OLIVIA :PAID</option>
+	<option value="ERTJEZTEBNHBZBW">ERTJEZTEBNHBZBW:BALIRUNO  PEACE :NOT PAID</option>
+	<option value="AEQUKTPXWOULSIT">AEQUKTPXWOULSIT:NAKAYIMA   SUMAYA:NOT PAID</option>
+	<option value="XFVULAZYJMIRFBU">XFVULAZYJMIRFBU:AGEO  BETTY:NOT PAID</option>
+	<option value="BDVUKYTYXKXIUDV">BDVUKYTYXKXIUDV:AKUDEP  ROSE :PAID</option>
+	<option value="AGICZMOAHKSRFOR">AGICZMOAHKSRFOR:YATUWA   JUDITH:NOT PAID</option>
+	<option value="AEWUSNQHADDPMYT">AEWUSNQHADDPMYT:FATINA  BABIRYE :PAID</option>
+	<option value="UNJBXPBKSHJNIJX">UNJBXPBKSHJNIJX:NANJOBE  WARIDAH:NOT PAID</option>
+	<option value="CSMIDUIMHBBKFNV">CSMIDUIMHBBKFNV:AKIROR JENNIFER  MARY:PAID</option>
+	<option value="BYUOZZCWQRMZHJA">BYUOZZCWQRMZHJA:NAMUJJU  YUDAYA:NOT PAID</option>
+	<option value="XQHSYGKHHCDDIXS">XQHSYGKHHCDDIXS:TUMURAMYE  MONIC :NOT PAID</option>
+	<option value="XLLLSPSZDPHZCTH">XLLLSPSZDPHZCTH:KUGONZA  ABIAS:NOT PAID</option>
+	<option value="KLTITUGFEYOKOZZ">KLTITUGFEYOKOZZ:NALUGWA  MABLE:NOT PAID</option>
+	<option value="QKTYKJVPAHCCGZR">QKTYKJVPAHCCGZR:NAMUJJU  YUDAYA:NOT PAID</option>
+	<option value="DCDXDNNWCCXSMEM">DCDXDNNWCCXSMEM:NABUZALE  SYLIVIA :NOT PAID</option>
+	<option value="WFDPPMQTETQBMBA">WFDPPMQTETQBMBA:MUSEENE  AISHA:NOT PAID</option>
+	<option value="WVZBSTXBMSESTTW">WVZBSTXBMSESTTW:MUSEENE  AISHA:NOT PAID</option>
+	<option value="HAAWVWQMAVEPXNA">HAAWVWQMAVEPXNA:MUTESI  ASHA:NOT PAID</option>
+	<option value="OVSOSTPOEOYWJWQ">OVSOSTPOEOYWJWQ:AMUMPIRE   CHARITY:NOT PAID</option>
+	<option value="ASQQGZLWXRJAGCG">ASQQGZLWXRJAGCG:NYAKATO  SARAH:NOT PAID</option>
+	<option value="SEZGZRONFCHGUQS">SEZGZRONFCHGUQS:KASIIME  PROSSY:NOT PAID</option>
+	<option value="BFWSXGNGODXSNKO">BFWSXGNGODXSNKO:ACOM  CHRISTINE:NOT PAID</option>
+	<option value="SUVAQZJHXXMEDIM">SUVAQZJHXXMEDIM:KAYESU  CHARITY:NOT PAID</option>
+	<option value="SMRFADQKJXIOAYQ">SMRFADQKJXIOAYQ:KISAKYE  IRENE:NOT PAID</option>
+	<option value="CRRSWCWKKXFOFDM">CRRSWCWKKXFOFDM:LOGOSE  HADIJJA:NOT PAID</option>
+	<option value="RGNYZCYVDAJMJBV">RGNYZCYVDAJMJBV:MUGALA  HAJIRA:NOT PAID</option>
+	<option value="KORYOLWOGTUSBMQ">KORYOLWOGTUSBMQ:NABULOBI  RACHEAL:NOT PAID</option>
+	<option value="MKAEQASGNUPENGZ">MKAEQASGNUPENGZ:NAMBALIRWA  SHAMIM:NOT PAID</option>
+	<option value="PRBTWMNFPNFCEZH">PRBTWMNFPNFCEZH:NAMBOOZO  JESCA:NOT PAID</option>
+	<option value="HIYGPYINZEKEHOL">HIYGPYINZEKEHOL:NATAMBA  MOREEN:NOT PAID</option>
+	<option value="CFMBSFZTNJKHFHE">CFMBSFZTNJKHFHE:NAYEBARE  SYLIVIA:NOT PAID</option>
+	<option value="RPPGLWZULXEYPVE">RPPGLWZULXEYPVE:MIREMBE  BETTY:NOT PAID</option>
+	<option value="GEHQCAYEUTWKZEW">GEHQCAYEUTWKZEW:WAZEMWA  VIOLET:NOT PAID</option>
+	<option value="WTNALUIIKNKCOAT">WTNALUIIKNKCOAT:NAMUKOSE  MININA:NOT PAID</option>
+	<option value="KUNTOHAOVTBUONQ">KUNTOHAOVTBUONQ:NABIRYE  JOWERIA:PAID</option>
+	<option value="OPQPHYTLBGBKHVR">OPQPHYTLBGBKHVR:KYASIIMIRE  AZIIDA:NOT PAID</option>
+	<option value="AXJOQCRQRGUWCGI">AXJOQCRQRGUWCGI:NAKABUGO  SOPHIAH:NOT PAID</option>
+	<option value="KTNQGBBZMGWKNUU">KTNQGBBZMGWKNUU:BALUKA  SHARUWA:NOT PAID</option>
+	<option value="WSQRXCTMIUJNQYS">WSQRXCTMIUJNQYS:MUDUWA  SHAKIRA:NOT PAID</option>
+	<option value="UDIIRWJXJXADZUO">UDIIRWJXJXADZUO:NABIRYE  JOWERIA:PAID</option>
+
+</select>
+                                            
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                    <div style="padding-top:2%;padding-left:0px; text-align:center;" class="col-sm-9 col-xs-12" >
+                                    <input type="submit" name="btnCompleteApp" value="Proceed" id="btnCompleteApp" class="btn btn-lg" />
+                                        </div>
+                                        </div>
+                                </fieldset>
+                                <input name="txtapplicationNum" type="text" id="txtapplicationNum" class="show" />
+                            <input name="txtname" type="text" id="txtname" class="show" />
+                            <input name="txtpymtStatus" type="text" id="txtpymtStatus" class="show" />
+                                <input name="txtFingureCapture" type="text" id="txtFingureCapture" class="show" />
+                                <input name="txtEmail" type="text" value="jaromgt@gmail.com" id="txtEmail" class="show" />
+                                <input name="txtpassword" type="text" value="pL/foRXBQ0dDGFmG9bnejjHSsfzETyvA/aukmz2fVzA=" id="txtpassword" class="hidden" />
+                                <input name="txtUsername" type="text" value="JARO TASPER " id="txtUsername" class="show" />
+                                <input name="txtPar" type="text" value="KYVbliRtFozXtWYbezwoIFiasQl br63KRJDmF9KiNJmlJbzCWvFs9bCZ zGGlKo" id="txtPar" class="show" />
+                               <input name="txtlcode" type="text" value="sTKkkG25MHE4GlMDhrkd7cxRfTTtrYce4ck1P5zKmO+WtivnjCA27+qVHF80ebx/" id="txtlcode" class="show" />
+                            </form>
+                             
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <div class="f-copyright-area h3-style" style="background: #003366; border-top: 5px solid gray;">
+                    <div class="container" style="padding: 5px;">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <p class="copyright text-center text-md-left mb-2 mb-md-0">&copy; 2020 <a href="#" style="color: #ccc;">Uganda Police Force</a> - NTR Payment platform. Version 1.0</p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <ul class="social-profile rounded large text-center text-md-right">
+                                    <li><a href="https://www.facebook.com/ugandaupf"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.twitter.com/policeug"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://www.youtube.com/ugandaupf"><i class="fa fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <div class="scroll-top"><i class="arrow_carrot-up"></i></div>
+            <script src="js/NewMaster/jquery.min.js"></script>
+            <script> if (!window.jQuery) { document.write('<script src="js/NewMaster/jquery.min.js"><\/script>'); } </script>
+
+            <script src="js/NewMaster/jquery-ui.min.js"></script>
+            <script> if (!window.jQuery.ui) { document.write('<script src="js/NewMaster/jquery-ui.min.js"><\/script>'); } </script>
+            <script>
+
+                $(document).ready(function () {
+                    $("#txtDOBB").datepicker({
+                        prevText: '<i class="fa fa-chevron-left"></i>',
+                        nextText: '<i class="fa fa-chevron-right"></i>',
+                        changeMonth: true,
+                        changeYear: true,
+                        yearRange: "-100:+0",
+                        maxDate: '+0m',
+                        showMonthAfterYear: true,
+                        dateFormat: 'mm-dd-yy'
+                    });
+                    $("#lkReg").click(function () {
+                      var par =  $('txtPar').val();
+                        var url = 'App_Regen.aspx?param=' + par;//fname should be an encrypted copy of the email
+                        debugger;
+                        window.location.replace(url);
+                    });
+
+                });
+
+            </script>
+</body>
+
+</html>
+
+
